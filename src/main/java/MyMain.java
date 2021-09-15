@@ -66,8 +66,30 @@ public class MyMain {
     //     nextNextNextLetter('a') => 'd'
     //     nextNextNextLetter('z') => 'c'
     public static char nextNextNextLetter(char ch) {
-        // REPLACE WITH YOUR CODE HERE
-        return ' ';
+        char num = ch;
+        int x = num + 3;
+        char y = (char) x;
+        if (ch == 'x') {
+            return 'a';
+        }
+        if (ch == 'y'){
+            return 'b';
+        }
+        if (ch == 'z') {
+            return 'c';
+        }
+        if (ch == 'X') {
+            return 'A';
+        }
+        if (ch == 'Y') {
+            return 'B';
+        }
+        if (ch == 'Z') {
+            return 'C';
+        }
+        else {
+            return y;
+        }
     }
 
 
